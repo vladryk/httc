@@ -18,5 +18,4 @@ Add test-data to database
 
 ```
 
-
 After adding test-data can run test-functions from tasks.py
