@@ -11,10 +11,11 @@ def t(q):
 
 
 def ce(q):
+    # cursor = connection.cursor()
     with connection.cursor() as cursor:
         start_time = time.time()
         cursor.execute(q)
         a = cursor.fetchall()
         end_time = time.time()
         exec_time = end_time - start_time
-    print(exec_time)
+        print(exec_time)
